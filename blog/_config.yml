@@ -4,8 +4,8 @@
 
 # Site
 title: 向往
-subtitle: 
-description:
+subtitle:
+description: Your attitude, not your aptitude, will determine your altitude.
 author: William
 language:
 timezone:
@@ -43,6 +43,26 @@ highlight:
   auto_detect: false
   tab_replace:
   
+
+
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -80,4 +100,3 @@ deploy:
   type: git
   repo: git@github.com:william-leen/william-leen.github.io.git
   branch: master
-  
